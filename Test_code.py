@@ -142,15 +142,15 @@ if __name__ == "__main__":
     list_class = list(class_label_dict.keys())
     thresholds = [0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8]
 
-    root_dir = "D:/Swati/LPC_classification/data/val" # +folder_names[8]
-    graph_path = "D:/Swati/LPC_classification/results/pb_seincep/LPC_287.pb"
+    root_dir = "D:/chinna/LPC_classification/data/val" # +folder_names[8]
+    graph_path = "D:/chinna/LPC_classification/results/pb_seincep/LPC_287.pb"
 
     move_imgs = True
     logs = True
     conf_csv = True
 
-    confus_csv = 'D:/Swati/LPC_classification/results/287/Conf_287.csv'
-    move_dir = "D:/Swati/LPC_classification/results/287/"
+    confus_csv = 'D:/chinna/LPC_classification/results/287/Conf_287.csv'
+    move_dir = "D:/chinna/LPC_classification/results/287/"
 
     img_mean = 127.79951954212892
     img_std_dev = 255
