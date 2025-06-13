@@ -46,9 +46,9 @@ def convert_pb(model_path, save_path, save_logs, print_graph=False):
 
 if __name__ == "__main__":
     # filename = LS3_bv_512_052
-    model_path = "D:/Swati/LPC_classification/New/ckpts/Checkpoint-0036.hdf5"
-    save_path = "D:/Swati/LPC_classification/New/results/pb/LPC_35.pb"
-    save_logs = "D:/Swati/LPC_classification/New/results"
+    model_path = "D:/chinna/LPC_classification/New/ckpts/Checkpoint-0036.hdf5"
+    save_path = "D:/chinna/LPC_classification/New/results/pb/LPC_35.pb"
+    save_logs = "D:/chinna/LPC_classification/New/results"
     
     print(f"starting Conversion from h5 to pb :")
 
