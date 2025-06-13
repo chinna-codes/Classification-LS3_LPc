@@ -273,11 +273,11 @@ if __name__ == "__main__":
     train_samples = 31972   #28590
     val_samples = 5289  #5256
 
-    train_tfrecord = 'D:/Swati/LPC_classification/New/data/train.tfrecords'
-    val_tfrecord = 'D:/Swati/LPC_classification/New/data/val.tfrecords'
+    train_tfrecord = 'D:/chinna/LPC_classification/New/data/train.tfrecords'
+    val_tfrecord = 'D:/chinna/LPC_classification/New/data/val.tfrecords'
 
-    checkpoint_path = 'D:/Swati/LPC_classification/New/ckpts/Checkpoint-{epoch:04d}.hdf5'
-    train_log_path = 'D:/Swati/LPC_classification/New/ckpts/train_logs.csv'
+    checkpoint_path = 'D:/chinna/LPC_classification/New/ckpts/Checkpoint-{epoch:04d}.hdf5'
+    train_log_path = 'D:/chinna/LPC_classification/New/ckpts/train_logs.csv'
 #########################################################
     log_dir = os.path.dirname(train_log_path)
     if not os.path.exists(log_dir):
@@ -288,7 +288,7 @@ if __name__ == "__main__":
 
     """ If You are uncommenting this line then comment out the Line number 306,307,308 compile inceptoon model and summary lines"""
 
-    # model = tf.keras.models.load_model('D:/Swati/LPC_classification/New/ckpts/Checkpoint-0060.hdf5')  # provide the Path of h5 file
+    # model = tf.keras.models.load_model('D:/chinna/LPC_classification/New/ckpts/Checkpoint-0060.hdf5')  # provide the Path of h5 file
 
 
     checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(filepath=checkpoint_path,
